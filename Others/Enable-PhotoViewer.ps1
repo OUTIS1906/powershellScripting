@@ -1,10 +1,10 @@
-#Requires -RunAsAdministrator:$false
-
+# script scope is CU
 Function Enable-PhotoViewer{
 
     $PhotoVwrDLL = 'C:\Program Files\Windows Photo Viewer\PhotoViewer.dll'
     if(Test-Path -Path $PhotoVwrDLL -PathType Leaf){
-    
+
+        # common photo extentions
         $extensions = @(
             ".bmp",
             ".cr2",
