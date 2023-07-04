@@ -12,9 +12,11 @@ Function Get-GeoLocation {
         PostalCode  = $Result.postal
     }
 
+    <# Opennnig GeoLocation in GoogleMaps
     $GoogleMapsUrl = "https://www.google.com/maps?q=$($GeoLocation.Latitude),$($GeoLocation.Longitude)"
     Start-Process $GoogleMapsUrl
+    #>
 
     return $GeoLocation
-    
+
 }Get-GeoLocation
