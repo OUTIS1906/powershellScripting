@@ -9,7 +9,7 @@ function Uninstall-WinUpdate {
         Write-Host "Uninstalling:"; $update
         $KB = $update.HotFixID.split("KB")[-1]
 
-        if (![string]::IsNullOrWhiteSpace($KB)) {
+        if (-not([string]::IsNullOrWhiteSpace($KB))) {
             try {
                 Start-Process wusa.exe -ArgumentList "/uninstall /kb:$KB" -Wait -ErrorAction Stop
             }
