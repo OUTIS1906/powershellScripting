@@ -6,7 +6,8 @@ function Uninstall-WinUpdate {
     foreach ($update in $updateList) {
 
         try{[System.Console]::SetWindowPosition(0,[System.Console]::CursorTop)}catch{}
-        Write-Host "Uninstalling:"; $update
+        #Write-Host "Uninstalling:"; $update
+        Write-Output "Uninstalling:" $update | Format-Table
         $KB = $update.HotFixID.split("KB")[-1]
 
         if (-not([string]::IsNullOrWhiteSpace($KB))) {
