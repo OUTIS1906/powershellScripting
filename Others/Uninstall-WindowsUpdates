@@ -1,7 +1,7 @@
 function Uninstall-WinUpdate {
 
     Write-Warning "Windows Updates..."
-    $updateList = Get-HotFix | Sort-Object -Property InstalledOn -Descending | Out-GridView -Title "Installed Updates" -OutputMode Multiple
+    $updateList = Get-HotFix | Select-Object -Property  HotFixID, InstalledOn, InstalledBy, Description,PSComputerName | Sort-Object -Property InstalledOn  | Out-GridView -Title "Installed Updates" -OutputMode Multiple
 
     foreach ($update in $updateList) {
 
