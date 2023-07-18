@@ -79,6 +79,6 @@ Function Remove-UserProfiles{
         Write-Warning "No profiles to be removed"
     }
 
-    Remove-Variable Profiles2Remove ,CurrentUser,ExcludedProfiles, -Force
+    Remove-Variable Profiles2Remove, CurrentUser, ExcludedProfiles
 
 }Remove-UserProfiles
