@@ -1,4 +1,4 @@
-# Welcome to My Scripts Repository
+# Welcome to My PowerShell Scripts Repository
 
 This repository is a collection of useful scripts that I have developed for various purposes. These scripts aim to automate tasks, enhance productivity, and simplify workflows. Feel free to explore the scripts and use them in your projects.
 
