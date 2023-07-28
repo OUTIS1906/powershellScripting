@@ -22,10 +22,10 @@ Function Install-DellTrackpadFix{
             $WebClient.DownloadFile($DownloadParams.Source,$DownloadParams.Destination)
             $WebClient.Dispose()
 
-            $ExitCode = (Start-Process -FilePath $DownloadParams.Destination -ArgumentList ("/factoryinstall /passthrough") -PassThru -Wait -ErrorAction Stop).ExitCode
+            $ExitCode = (Start-Process -FilePath $DownloadParams.Destination -ArgumentList ("/factoryinstall /passthrough /s") -PassThru -Wait -ErrorAction Stop).ExitCode
             #Start-Process -FilePath $DownloadParams.Destination -ArgumentList "/factoryinstall /passthrough" -Wait -ErrorAction Stop
 
-            if ($ExitCode -eq 0) {
+            if (($ExitCode -eq 0) -or ($ExitCode -eq 2)) {
                 Write-Host "Completed!" -ForegroundColor Green 
                 if( (Read-Host -Prompt "Changes will not take effect until reboot. Press `"y`" to do so now, any other key to exit...") -eq 'y'){ shutdown -r -t 30 -c "In about 30 seconds Windows will reboot. "}
             }
