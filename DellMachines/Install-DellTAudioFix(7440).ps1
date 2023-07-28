@@ -8,7 +8,7 @@ Function Install-DellTAudioFix{
     try{[System.Console]::SetWindowPosition(0,[System.Console]::CursorTop)}catch{}
 
     if($isRefferingMachine){
-        Write-Warning "Deploying Trackpad Fix for Dell Latitude 7440..."
+        Write-Warning "Deploying Audio Fix for Dell Latitude 7440..."
 
         $DownloadParams = @{
             Source      = "https://dl.dell.com/FOLDER10038978M/4/Realtek-High-Definition-Audio-Driver_PP6XK_WIN_6.0.9514.1_A02_02.EXE"
