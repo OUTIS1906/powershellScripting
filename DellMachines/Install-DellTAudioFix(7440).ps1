@@ -22,7 +22,7 @@ Function Install-DellTAudioFix{
             $WebClient.DownloadFile($DownloadParams.Source,$DownloadParams.Destination)
             $WebClient.Dispose()
 
-            $ExitCode = (Start-Process -FilePath $DownloadParams.Destination -ArgumentList ("/s /i") -PassThru -Wait -ErrorAction Stop).ExitCode
+            $ExitCode = (Start-Process -FilePath $DownloadParams.Destination -ArgumentList ("/factoryinstall /passthrough /s /i") -PassThru -Wait -ErrorAction Stop).ExitCode
             #Start-Process -FilePath $DownloadParams.Destination -ArgumentList "/factoryinstall /passthrough" -Wait -ErrorAction Stop
 
             if (($ExitCode -eq 0) -or ($ExitCode -eq 2)) {
