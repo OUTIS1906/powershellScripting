@@ -35,6 +35,7 @@ Function Install-DellTAudioFix{
         }
         catch{
             Start-Process "https://dl.dell.com/FOLDER10038978M/4/Realtek-High-Definition-Audio-Driver_PP6XK_WIN_6.0.9514.1_A02_02.EXE" | Out-Null
+            "Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
             Throw "ISSUE: Update failed - continue manually"
         }
     }
