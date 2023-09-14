@@ -3,9 +3,8 @@ Function Enable_Disable_Updates{
     Add-Type -AssemblyName PresentationFramework
 
     $CurrnetUser = ((Get-CimInstance -ClassName Win32_ComputerSystem | Select-Object UserName).UserName)
-    #$CurrentUserSID = (New-Object System.Security.Principal.NTAccount($CurrnetUser)).Translate([System.Security.Principal.SecurityIdentifier]).Value
+    $CurrentUserSID = (New-Object System.Security.Principal.NTAccount($CurrnetUser)).Translate([System.Security.Principal.SecurityIdentifier]).Value
     
-    $CurrentUserSID = 'S-1-5-21-2047949552-857980807-821054962-504'
     $registryFullPath = "registry::HKEY_USERS\$CurrentUserSID\SOFTWARE\Autodesk\ODIS"
     
     if(-not(Test-Path -Path $registryFullPath -PathType Container)){ 
