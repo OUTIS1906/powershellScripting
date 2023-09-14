@@ -41,7 +41,7 @@ Function Get-AutodeskLanguagePack {
                 "Portuguese" = "https://up.autodesk.com/2022/ACD/7BE73380-1F56-3EDF-ADC6-830A1705E0B7/Autodesk_AutoCAD_2022_Brazilian_Portuguese_Language_Pack.exe"
             }
         }
-        "AutoCAD_Architecutre" = @{
+        "AutoCAD_Architecture" = @{
             '2019' = @{
                 "English" = "http://download.autodesk.com/us/support/files/autocad_architecture_2019_language_packs/AutoCAD_Architecture_2019_English_LP_Win_64bit_dlm.sfx.exe"
                 "German"  = "http://download.autodesk.com/us/support/files/autocad_architecture_2019_language_packs/AutoCAD_Architecture_2019_German_LP_Win_64bit_dlm.sfx.exe"
