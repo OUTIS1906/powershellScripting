@@ -6,5 +6,30 @@
   {
     "Name": "Heif Image Extensios",
     "Url": "https://apps.microsoft.com/store/detail/hevc-video-extensions-from-device-manufacturer/9N4WGH0Z6VHQ"
+  },
+  {
+    "Name": "Nvidia Control Panel",
+    "Url": "https://apps.microsoft.com/detail/9NF8H0H7WMLT"
+  },
+  {
+    "Name": "Intel Control Panel",
+    "Url": "https://apps.microsoft.com/detail/9PLFNLNT3G5G"
+  },
+  {
+    "Name": "Quick Assist",
+    "Url": "https://apps.microsoft.com/detail/quick-assist/9P7BP5VNWKX5"
+  },
+  {
+    "Name": "Microsoft Store",
+    "Url": "https://apps.microsoft.com/detail/ms-store/9wzdncrfjbmp"
+  },
+  {
+    "Name": "Sticky Notes",
+    "Url": "https://apps.microsoft.com/detail/microsoft-sticky-notes/9NBLGGH4QGHW"
+  },
+  {
+    "Name": "To DO",
+    "Url": "https://apps.microsoft.com/detail/to-do-list/9NBLGGH5R558"
   }
 ]
+
