@@ -1,27 +1,67 @@
 [
   {
-    "Name": "Hevc Video Extensions",
-    "Url": "https://apps.microsoft.com/store/detail/hevc-video-extensions-from-device-manufacturer/9N4WGH0Z6VHQ"
+    "Name": "App Installer",
+    "Url": "https://apps.microsoft.com/detail/9NBLGGH4NNS1"
+  },
+  {
+    "Name": "Company Portal",
+    "Url": "https://apps.microsoft.com/detail/9WZDNCRFJ3PZ"
   },
   {
     "Name": "Heif Image Extensios",
     "Url": "https://apps.microsoft.com/store/detail/hevc-video-extensions-from-device-manufacturer/9N4WGH0Z6VHQ"
   },
   {
-    "Name": "Nvidia Control Panel",
-    "Url": "https://apps.microsoft.com/detail/9NF8H0H7WMLT"
+    "Name": "Hevc Video Extensions",
+    "Url": "https://apps.microsoft.com/store/detail/hevc-video-extensions-from-device-manufacturer/9N4WGH0Z6VHQ"
   },
   {
     "Name": "Intel Control Panel",
     "Url": "https://apps.microsoft.com/detail/9PLFNLNT3G5G"
   },
   {
-    "Name": "Quick Assist",
-    "Url": "https://apps.microsoft.com/detail/quick-assist/9P7BP5VNWKX5"
+    "Name": "Microsoft Remote Desktop",
+    "Url": "https://apps.microsoft.com/detail/9WZDNCRFJ3PS"
   },
   {
     "Name": "Microsoft Store",
     "Url": "https://apps.microsoft.com/detail/ms-store/9wzdncrfjbmp"
+  },
+  {
+    "Name": "Microsoft Whiteboard",
+    "Url": "https://apps.microsoft.com/detail/9MSPC6MP8FM4"
+  },
+  {
+    "Name": "Microsoft Wireless Display Adapter",
+    "Url": "https://apps.microsoft.com/detail/9WZDNCRFJBB1"
+  },
+  {
+    "Name": "Nvidia Control Panel",
+    "Url": "https://apps.microsoft.com/detail/9NF8H0H7WMLT"
+  },
+  {
+    "Name": "OneNote",
+    "Url": "https://apps.microsoft.com/detail/OneNote/XPFFZHVGQWWLHB"
+  },
+  {
+    "Name": "Outlook for Windows",
+    "Url": "https://apps.microsoft.com/detail/9NRX63209R7B"
+  },
+  {
+    "Name": "Power Automate",
+    "Url": "https://apps.microsoft.com/detail/9NFTCH6J7FHV"
+  },
+  {
+    "Name": "Quick Assist",
+    "Url": "https://apps.microsoft.com/detail/quick-assist/9P7BP5VNWKX5"
+  },
+  {
+    "Name": "Raw Image Extension",
+    "Url": "https://apps.microsoft.com/detail/9NCTDW2W1BH8"
+  },
+  {
+    "Name": "Snipping Tool",
+    "Url": "https://apps.microsoft.com/detail/9MZ95KL8MR0L"
   },
   {
     "Name": "Sticky Notes",
@@ -32,12 +72,11 @@
     "Url": "https://apps.microsoft.com/detail/to-do-list/9NBLGGH5R558"
   },
   {
-    "Name": "Windows Terminal",
-    "Url": "https://apps.microsoft.com/detail/windows-terminal/9N0DX20HK701"
+    "Name": "Windows Notepad",
+    "Url": "https://apps.microsoft.com/detail/9MSMLRH6LZF3"
   },
   {
     "Name": "Windows Terminal",
     "Url": "https://apps.microsoft.com/detail/windows-terminal/9N0DX20HK701"
   }
 ]
-
