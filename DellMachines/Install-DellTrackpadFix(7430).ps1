@@ -11,9 +11,10 @@ Function Install-DellTrackpadFix{
         Write-Warning "Deploying Trackpad Fix for Dell Latitude 7430..."
 
         $DownloadParams = @{
-            #Source      = "https://dl.dell.com/FOLDER09148898M/1/Dell-Touchpad-Firmware-Update-Utility_RGNY7_WIN64_1160.4160.259.0_A00.EXE" # old
-            #New file from 25/08/2023
-            Source      = "https://raw.githubusercontent.com/OUTIS1906/powershellScripting/main/DellMachines/Files/Dell-Touchpad-Firmware-Update-Utility_982GV_WIN64_19.6.50.0_A00.EXE"
+            #New file from 25/08/2023 -> doesn't work
+            #Source      = "https://raw.githubusercontent.com/OUTIS1906/powershellScripting/main/DellMachines/Files/Dell-Touchpad-Firmware-Update-Utility_982GV_WIN64_19.6.50.0_A00.EXE"
+            #Old files -> new resource
+            Source      = "https://github.com/OUTIS1906/powershellScripting/raw/main/DellMachines/Files/Dell-Touchpad-Firmware-Update-Utility_RGNY7_WIN64_1160.4160.259.0_A00.EXE"
             Destination = Join-Path -Path $TempPath -ChildPath "Dell-Touchpad-Firmware-Update-Utility_RGNY7_WIN64_1160.4160.259.0_A00.EXE"
             DisplayName = "Trackpad Fix for Dell Latitude 7430"
             Description = "Downloading..."
