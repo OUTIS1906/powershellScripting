@@ -11,7 +11,9 @@ Function Install-DellTrackpadFix{
         Write-Warning "Deploying Trackpad Fix for Dell Latitude 7430..."
 
         $DownloadParams = @{
-            Source      = "https://dl.dell.com/FOLDER09148898M/1/Dell-Touchpad-Firmware-Update-Utility_RGNY7_WIN64_1160.4160.259.0_A00.EXE"
+            #Source      = "https://dl.dell.com/FOLDER09148898M/1/Dell-Touchpad-Firmware-Update-Utility_RGNY7_WIN64_1160.4160.259.0_A00.EXE" # old
+            #New file from 25/08/2023
+            Source      = "https://raw.githubusercontent.com/OUTIS1906/powershellScripting/main/DellMachines/Files/Dell-Touchpad-Firmware-Update-Utility_982GV_WIN64_19.6.50.0_A00.EXE"
             Destination = Join-Path -Path $TempPath -ChildPath "Dell-Touchpad-Firmware-Update-Utility_RGNY7_WIN64_1160.4160.259.0_A00.EXE"
             DisplayName = "Trackpad Fix for Dell Latitude 7430"
             Description = "Downloading..."
@@ -25,12 +27,12 @@ Function Install-DellTrackpadFix{
             $ExitCode = (Start-Process -FilePath $DownloadParams.Destination -ArgumentList ("/factoryinstall /passthrough /s") -PassThru -Wait -ErrorAction Stop).ExitCode
             #Start-Process -FilePath $DownloadParams.Destination -ArgumentList "/factoryinstall /passthrough" -Wait -ErrorAction Stop
 
-            if (($ExitCode -eq 0) -or ($ExitCode -eq 2)) {
+            if ($ExitCode -eq 0) {
                 Write-Host "Completed!" -ForegroundColor Green 
                 if( (Read-Host -Prompt "Changes will not take effect until reboot. Press `"y`" to do so now, any other key to exit...") -eq 'y'){ shutdown -r -t 30 -c "In about 30 seconds Windows will reboot. "}
             }
             else{
-                Write-Host "Something went wrong!"
+                Write-Host "Something went wrong => ExitCode:$ExitCode"
             }
         }
         catch{
