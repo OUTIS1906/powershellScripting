@@ -7,15 +7,16 @@
     <CCMCache>
         <!--<Path>C:\WINDOWS\CCM\Logs\</Path>-->
         <Path>C:\WINDOWS\ccmcache\</Path>
+        <Path>C:\WINDOWS\ccmtemp\</Path>
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Software Center\.cache\</Path>
     </CCMCache>
     <CrashDumps>
         <Path>C:\Users\*\AppData\Local\CrashDumps\</Path>
         <Path>C:\WINDOWS\Minidump\</Path>
         <Path>C:\WINDOWS\System32\config\systemprofile\AppData\Local\CrashDumps\</Path> 
-        
+
         <!--<Path>C:\WINDOWS\memory.dmp\</Path>-->
-        <!--<Path>C:\WINDOWS\Minidump.dmp\</Path>  -->
+        <!--<Path>C:\WINDOWS\Minidump.dmp\</Path> -->
     </CrashDumps>
     <WindowsUpdate>
         <Path>C:\WINDOWS\SoftwareDistribution\Download\</Path>
@@ -30,14 +31,21 @@
     <WindowsLogs>
         <Path>C:\WINDOWS\Logs\</Path>
         <Path>C:\WINDOWS\CCM\Logs\</Path>
-        <!--<Path>C:\WINDOWS\System32\LogFiles\</Path>-->
         <!--<Path>C:\WINDOWS\System32\winevt\Logs\</Path>-->
+        <!--<Path>C:\WINDOWS\System32\LogFiles\</Path>-->   
     </WindowsLogs>
     <WindowsInstallers>
         <!--C:\WINDOWS\Installer-->
+        <Path>C:\WINDOWS\Installer\*tmp*\</Path>
         <Path>C:\WINDOWS\Installer\$PatchCache$\</Path>
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Installer\</Path>
+
+        <Path>C:\ProgramData\Package Cache\</Path>
+        <!--<Path>C:\ProgramData\Packages\</Path>-->
     </WindowsInstallers>
+    <NetworkProfiles>
+        <Path>C:\WINDOWS\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Cache\</Path>
+    </NetworkProfiles>
     <IECache>
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\INetHistory\</Path>
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\INetCookies\</Path>
@@ -48,6 +56,10 @@
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\WebCache\</Path>
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\Temporary Internet Files\</Path>
     </IECache>
+    <MSUpdates>
+        <Path>C:\Program Files (x86)\Microsoft\EdgeUpdate\</Path>
+        <Path>C:\Program Files\Microsoft Office\Updates\</Path>    
+    </MSUpdates>
     <UsersAppdata>
         <Path>C:\Users\*\AppData\Local\Temp\</Path>
         
@@ -69,6 +81,7 @@
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Windows\Recent\</Path>
     </UsersAppdata>
     <TeamsCache>
+        <Path>C:\Program Files (x86)\Teams Installer\</Path>
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\Cache\</Path>
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\GPUCache\</Path>
 
