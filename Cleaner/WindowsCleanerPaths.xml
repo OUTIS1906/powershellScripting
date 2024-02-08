@@ -34,8 +34,22 @@
     </Policy>
     <WindowsLogs>
         <!--Logs files-->
-        <Path>C:\WINDOWS\Logs\</Path>
-        <Path>C:\WINDOWS\CCM\Logs\</Path>
+        <Path>C:\WINDOWS\Logs\SIH\</Path>
+        <Path>C:\WINDOWS\Logs\DPX\</Path>
+        <Path>C:\WINDOWS\Logs\CBS\</Path>
+        <Path>C:\WINDOWS\Logs\DISM\</Path>
+        <Path>C:\WINDOWS\Logs\Software\</Path>
+        <Path>C:\WINDOWS\Logs\MeasuredBoot\</Path>
+        <Path>C:\WINDOWS\Logs\WinREAgent\</Path>
+        <Path>C:\WINDOWS\Logs\WindowsUpdate\</Path>
+        <Path>C:\WINDOWS\Logs\SystemRestore\</Path>
+        <Path>C:\WINDOWS\Logs\SetupCleanupTask\</Path>
+        <Path>C:\WINDOWS\Logs\QualysAgent\</Path>
+        <Path>C:\WINDOWS\Logs\MoSetup\</Path>
+        <Path>C:\WINDOWS\Logs\QualysAgent\</Path>
+        <Path>C:\WINDOWS\Logs\QualysAgent\</Path>
+        <!--<Path>C:\WINDOWS\Logs\</Path>-->
+        <!--<Path>C:\WINDOWS\CCM\Logs\</Path>-->
         <!--<Path>C:\WINDOWS\System32\winevt\Logs\</Path>-->
         <!--<Path>C:\WINDOWS\System32\LogFiles\</Path>-->   
     </WindowsLogs>
