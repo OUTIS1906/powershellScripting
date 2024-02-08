@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Paths>
+    <WindowsCache>
+        <Path>C:\WINDOWS\Temp\</Path>
+        <Path>C:\WINDOWS\prefetch\</Path>
+    </WindowsCache>
+    <CCMCache>
+        <!--<Path>C:\Windows\CCM\Logs\</Path>-->
+        <Path>C:\WINDOWS\ccmcache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Software Center\.cache\</Path>
+    </CCMCache>
+    <CrashDumps>
+        <Path>C:\Users\*\AppData\Local\CrashDumps\</Path>
+        <Path>C:\WINDOWS\Minidump\</Path>
+    </CrashDumps>
+    <WindowsUpdate>
+        <Path>C:\WINDOWS\SoftwareDistribution\Download\</Path>
+        <Path>C:\WINDOWS\SoftwareDistribution\</Path>
+        <Path>C:\WINDOWS\Downloaded Program Files\</Path>
+    </WindowsUpdate>
+    <Policy>
+        <Path>C:\WINDOWS\system32\GroupPolicy\</Path>
+        <Path>C:\WINDOWS\System32\GroupPolicyUsers\</Path>
+    </Policy>
+    <IECache>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\INetHistory\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\INetCookies\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\INetCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\WebCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\Temporary Internet Files\</Path>
+    </IECache>
+    <BrowsersCache>
+        <!-- Chrome-->
+        <Path>C:\Users\*\Appdata\local\Google\Chrome\User Data\Default\Service Worker\CacheStorage\</Path>
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\Default\Cache\</Path>
+        <!-- Edge-->
+        <Path>C:\Users\*\Appdata\local\Microsoft\Edge\User Data\Default\Service Worker\CacheStorage\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\Default\Cache\</Path>
+        <!-- Braver-->
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\Service Worker\CacheStorage\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\Cache\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\User Data\Default\Service Worker\CacheStorage\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\User Data\Default\Cache\</Path>
+        <!-- Opera-->
+        <Path>C:\Users\*\Appdata\local\Opera Software\Opera Stable\User Data\Default\Service Worker\CacheStorage\</Path>
+        <Path>C:\Users\*\AppData\Local\Opera Software\Opera Stable\Cache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Opera\Opera\cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Opera\Opera\cache\</Path>
+        <!-- FireFox-->
+        <Path>C:\Users\*\AppData\Local\Mozilla\Firefox\Profiles\*\cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Mozilla\Firefox\Profiles\*\cache2\</Path>
+    </BrowsersCache>
+    <TeamsCache>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\Cache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\GPUCache\</Path>
+    </TeamsCache>
+    <WindowsLogs>
+        <Path>C:\Windows\Logs\</Path>
+        <Path>C:\Windows\CCM\Logs\</Path>
+        <Path>C:\Windows\System32\LogFiles\</Path>
+        <Path>C:\Windows\System32\winevt\Logs\</Path>
+    </WindowsLogs>
+    <UsersAppdata>
+        <Path>C:\Users\*\AppData\Local\Temp\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\Explorer\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\WebCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\TokenBroker\Cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Terminal Server Client\Cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\Caches\</Path>
+        <Path>C:\Users\*\AppData\Local\OneDrive\cache\</Path>
+        <Path>C:\Users\*\AppData\LocalLow\Sun\Java\Deployment\tmp\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Windows\Recent\</Path>
+    </UsersAppdata>
+    <WindowsInstallers>
+        <Path>C:\WINDOWS\Installer\$PatchCache$\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Installer\</Path>
+    </WindowsInstallers>
+    <WindowsReporting>
+        <Path>C:\ProgramData\Microsoft\Windows\WER\ReportQueue\</Path>
+        <Path>C:\ProgramData\Microsoft\Windows\WER\ReportArchive\</Path>
+    </WindowsReporting>
+    <WindowsOffileFiles>
+        <Path>C:\WINDOWS\CSC\</Path>
+    </WindowsOffileFiles>
+    <RootDriveCache>
+        <Path>C:\OneDriveTemp\</Path>
+        <Path>C:\MSOCache\</Path>
+        <Path>C:\Dell\</Path>
+        <Path>C:\Intel\</Path>
+        <Path>C:\Drivers\</Path>
+        <Path>C:\ClientHealth\</Path>
+    </RootDriveCache>
+    <CustomPaths>
+        <Path>C:\AdaptivaCache\</Path>
+        <Path>C:\Autodesk\</Path>
+        <Path>C:\Temp\Powershell\</Path>
+    </CustomPaths>
+    <WindowsImageFiles>
+        <Path>C:\$Windows.~WS\</Path>
+        <Path>C:\$Windows.~BT\</Path>
+        <Path>C:\$Windows.~LS\</Path>
+        <Path>C:\Windows.old\</Path>
+        <Path>C:\Windows\Panther\</Path>
+    </WindowsImageFiles>
+    <RecycleBin>
+        <Path>C:\$Recycle.Bin\</Path>
+    </RecycleBin>
+</Paths>
