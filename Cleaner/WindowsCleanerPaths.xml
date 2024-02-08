@@ -13,9 +13,9 @@
         <Path>C:\Users\*\AppData\Local\CrashDumps\</Path>
         <Path>C:\WINDOWS\Minidump\</Path>
         <Path>C:\WINDOWS\System32\config\systemprofile\AppData\Local\CrashDumps\</Path> 
-
-        <Path>C:\WINDOWS\memory.dmp\</Path>
-        <Path>C:\WINDOWS\Minidump.dmp\</Path>  
+        
+        <!--<Path>C:\WINDOWS\memory.dmp\</Path>-->
+        <!--<Path>C:\WINDOWS\Minidump.dmp\</Path>  -->
     </CrashDumps>
     <WindowsUpdate>
         <Path>C:\WINDOWS\SoftwareDistribution\Download\</Path>
