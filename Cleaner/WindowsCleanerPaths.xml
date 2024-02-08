@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Paths>
     <WindowsCache>
+        <!--Windows cache-->
         <Path>C:\WINDOWS\Temp\</Path>
         <Path>C:\WINDOWS\prefetch\</Path>
     </WindowsCache>
     <CCMCache>
+        <!--CCM cache and files-->
         <!--<Path>C:\WINDOWS\CCM\Logs\</Path>-->
         <Path>C:\WINDOWS\ccmcache\</Path>
         <Path>C:\WINDOWS\ccmtemp\</Path>
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Software Center\.cache\</Path>
     </CCMCache>
     <CrashDumps>
+        <!--Crash dups files-->
         <Path>C:\Users\*\AppData\Local\CrashDumps\</Path>
         <Path>C:\WINDOWS\Minidump\</Path>
         <Path>C:\WINDOWS\System32\config\systemprofile\AppData\Local\CrashDumps\</Path> 
@@ -19,22 +21,26 @@
         <!--<Path>C:\WINDOWS\Minidump.dmp\</Path> -->
     </CrashDumps>
     <WindowsUpdate>
+        <!--Windows Update files-->
         <Path>C:\WINDOWS\SoftwareDistribution\Download\</Path>
         <Path>C:\WINDOWS\SoftwareDistribution\</Path>
         <Path>C:\WINDOWS\Downloaded Program Files\</Path>
         <!--<Path>C:\WINDOWS\System32\catroot2</Path>-->
     </WindowsUpdate>
     <Policy>
+        <!--Group policy files-->
         <Path>C:\WINDOWS\system32\GroupPolicy\</Path>
         <Path>C:\WINDOWS\System32\GroupPolicyUsers\</Path>
     </Policy>
     <WindowsLogs>
+        <!--Logs files-->
         <Path>C:\WINDOWS\Logs\</Path>
         <Path>C:\WINDOWS\CCM\Logs\</Path>
         <!--<Path>C:\WINDOWS\System32\winevt\Logs\</Path>-->
         <!--<Path>C:\WINDOWS\System32\LogFiles\</Path>-->   
     </WindowsLogs>
     <WindowsInstallers>
+        <!--Windows installers cache-->
         <!--C:\WINDOWS\Installer-->
         <Path>C:\WINDOWS\Installer\*tmp*\</Path>
         <Path>C:\WINDOWS\Installer\$PatchCache$\</Path>
@@ -44,9 +50,12 @@
         <!--<Path>C:\ProgramData\Packages\</Path>-->
     </WindowsInstallers>
     <NetworkProfiles>
+        <!--Network service cache-->
+        <Path>C:\ProgramData\Microsoft\Network\Downloader</Path>
         <Path>C:\WINDOWS\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Cache\</Path>
     </NetworkProfiles>
     <IECache>
+        <!--Internet Explorer cache-->
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\INetHistory\</Path>
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\INetCookies\</Path>
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\INetCache\</Path>
@@ -57,10 +66,13 @@
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\Temporary Internet Files\</Path>
     </IECache>
     <MSUpdates>
+        <!--Update files-->
+        <Path>C:\Program Files (x86)\Google\Update</Path>
         <Path>C:\Program Files (x86)\Microsoft\EdgeUpdate\</Path>
         <Path>C:\Program Files\Microsoft Office\Updates\</Path>    
     </MSUpdates>
     <UsersAppdata>
+        <!--Appdata cache-->
         <Path>C:\Users\*\AppData\Local\Temp\</Path>
         
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\Explorer\</Path>
@@ -81,6 +93,7 @@
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Windows\Recent\</Path>
     </UsersAppdata>
     <TeamsCache>
+        <!--Teams Cache-->
         <Path>C:\Program Files (x86)\Teams Installer\</Path>
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\Cache\</Path>
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\GPUCache\</Path>
@@ -100,6 +113,7 @@
         <Path>C:\Users\*\AppData\Local\Microsoft\Teams\previous\</Path>
     </TeamsCache>
     <O365Cache>
+        <!--Office cache-->
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Office\Recent\</Path>
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Excel</Path>
 
@@ -118,6 +132,7 @@
         <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\*cache*\</Path>
     </O365Cache>
     <OneDriveCache>
+        <!--One Drive cache-->
         <Path>C:\Users\*\AppData\Local\OneDrive\cache\</Path>
         <Path>C:\Users\*\AppData\Local\OneDrive\EBWebView\</Path>
         <Path>C:\Users\*\AppData\Local\OneDrive\logs\</Path>
@@ -125,15 +140,18 @@
         <Path>C:\Users\*\AppData\Local\OneDrive\Update\</Path>
     </OneDriveCache>
     <WindowsReporting>
+        <!--Windows Reporting Files-->
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\WER\ReportQueue\</Path>
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\WER\ReportArchive\</Path>
         <Path>C:\ProgramData\Microsoft\Windows\WER\ReportQueue\</Path>
         <Path>C:\ProgramData\Microsoft\Windows\WER\ReportArchive\</Path>
     </WindowsReporting>
     <WindowsOffileFiles>
+        <!--Offilne Files CSC-->
         <Path>C:\WINDOWS\CSC\</Path>
     </WindowsOffileFiles>
     <WindowsImageFiles>
+        <!--Old and new Windows Image Files-->
         <Path>C:\$Windows.~WS\</Path>
         <Path>C:\$Windows.~BT\</Path>
         <Path>C:\$Windows.~LS\</Path>
@@ -141,19 +159,24 @@
         <Path>C:\WINDOWS\Panther\</Path>
     </WindowsImageFiles>
     <RecycleBin>
+        <!--Recycle Bin-->
         <Path>C:\$Recycle.Bin\</Path>
     </RecycleBin>
     <BackupComponents>
+        <!--Windows cache comes from update/back up-->
         <Path>C:\WINDOWS\servicing\LCU\</Path>
         <Path>C:\WINDOWS\winsxs\backup\</Path>
     </BackupComponents>
     <ManufactureUpdates>
+        <!--Manufacutures Cache comes from updates etc...-->
         <Path>C:\SWSetup\</Path>
         <Path>C:\ProgramData\Dell\UpdateService\Downloads\</Path>
         <Path>C:\ProgramData\Intel\DSA\Downloads\</Path>
         <Path>C:\ProgramData\NVIDIA Corporation\Downloader\</Path>
     </ManufactureUpdates>
     <BrowserCache>
+        <!--Browsers Cache Files-->
+
         <!-- Chrome-->
         <Path>C:\Users\*\Appdata\local\Google\Chrome\User Data\*\Service Worker\CacheStorage\</Path>
         <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\*\Cache\</Path>
@@ -251,6 +274,7 @@
         <Path>C:\Users\*\AppData\Roaming\Mozilla\Firefox\Profiles\*\caches\</Path>
     </BrowserCache>
     <RootDriveCache>
+        <!--Cache from root drive-->
         <Path>C:\OneDriveTemp\</Path>
         <Path>C:\MSOCache\</Path>
         <Path>C:\Dell\</Path>
@@ -259,6 +283,7 @@
         <Path>C:\ClientHealth\</Path>
     </RootDriveCache>
     <CustomPaths>
+        <!--Customized locations-->
         <Path>C:\Autodesk\</Path>
         <Path>C:\AdaptivaCache\</Path>
         <Path>C:\Temp\Powershell\</Path>
