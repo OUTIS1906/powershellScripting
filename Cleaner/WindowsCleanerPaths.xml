@@ -5,83 +5,238 @@
         <Path>C:\WINDOWS\prefetch\</Path>
     </WindowsCache>
     <CCMCache>
-        <!--<Path>C:\Windows\CCM\Logs\</Path>-->
+        <!--<Path>C:\WINDOWS\CCM\Logs\</Path>-->
         <Path>C:\WINDOWS\ccmcache\</Path>
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Software Center\.cache\</Path>
     </CCMCache>
     <CrashDumps>
         <Path>C:\Users\*\AppData\Local\CrashDumps\</Path>
         <Path>C:\WINDOWS\Minidump\</Path>
+        <Path>C:\WINDOWS\System32\config\systemprofile\AppData\Local\CrashDumps</Path> 
+
+        <Path>C:\WINDOWS\memory.dmp</Path>
+        <Path>C:\WINDOWS\Minidump.dmp</Path>  
     </CrashDumps>
     <WindowsUpdate>
         <Path>C:\WINDOWS\SoftwareDistribution\Download\</Path>
         <Path>C:\WINDOWS\SoftwareDistribution\</Path>
         <Path>C:\WINDOWS\Downloaded Program Files\</Path>
+        <!--<Path>C:\WINDOWS\System32\catroot2</Path>-->
     </WindowsUpdate>
     <Policy>
         <Path>C:\WINDOWS\system32\GroupPolicy\</Path>
         <Path>C:\WINDOWS\System32\GroupPolicyUsers\</Path>
     </Policy>
+    <WindowsLogs>
+        <Path>C:\WINDOWS\Logs\</Path>
+        <Path>C:\WINDOWS\CCM\Logs\</Path>
+        <!--<Path>C:\WINDOWS\System32\LogFiles\</Path>-->
+        <!--<Path>C:\WINDOWS\System32\winevt\Logs\</Path>-->
+    </WindowsLogs>
+    <WindowsInstallers>
+        <!--C:\WINDOWS\Installer-->
+        <Path>C:\WINDOWS\Installer\$PatchCache$\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Installer\</Path>
+    </WindowsInstallers>
     <IECache>
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\INetHistory\</Path>
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\INetCookies\</Path>
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\INetCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\IECompatCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\IECompatUaCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\IEDownloadHistory\</Path>
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\WebCache\</Path>
         <Path>C:\Users\*\AppData\Local\Microsoft\Windows\Temporary Internet Files\</Path>
     </IECache>
-    <BrowsersCache>
-        <!-- Chrome-->
-        <Path>C:\Users\*\Appdata\local\Google\Chrome\User Data\Default\Service Worker\CacheStorage\</Path>
-        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\Default\Cache\</Path>
-        <!-- Edge-->
-        <Path>C:\Users\*\Appdata\local\Microsoft\Edge\User Data\Default\Service Worker\CacheStorage\</Path>
-        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\Default\Cache\</Path>
-        <!-- Braver-->
-        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\Service Worker\CacheStorage\</Path>
-        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\Cache\</Path>
-        <Path>C:\Users\*\AppData\Local\BraveSoftware\User Data\Default\Service Worker\CacheStorage\</Path>
-        <Path>C:\Users\*\AppData\Local\BraveSoftware\User Data\Default\Cache\</Path>
-        <!-- Opera-->
-        <Path>C:\Users\*\Appdata\local\Opera Software\Opera Stable\User Data\Default\Service Worker\CacheStorage\</Path>
-        <Path>C:\Users\*\AppData\Local\Opera Software\Opera Stable\Cache\</Path>
-        <Path>C:\Users\*\AppData\Roaming\Opera\Opera\cache\</Path>
-        <Path>C:\Users\*\AppData\Local\Opera\Opera\cache\</Path>
-        <!-- FireFox-->
-        <Path>C:\Users\*\AppData\Local\Mozilla\Firefox\Profiles\*\cache\</Path>
-        <Path>C:\Users\*\AppData\Local\Mozilla\Firefox\Profiles\*\cache2\</Path>
-    </BrowsersCache>
+    <UsersAppdata>
+        <Path>C:\Users\*\AppData\Local\Temp\</Path>
+        
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\Explorer\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\WebCache\</Path>
+
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\Caches\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\AppCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\RoamingTiles\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\ActionCenterCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\History\</Path>
+
+        <Path>C:\Users\*\AppData\Local\Microsoft\TokenBroker\Cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Terminal Server Client\Cache\</Path>
+
+        <Path>C:\Users\*\AppData\LocalLow\Sun\Java\Deployment\tmp\</Path>
+        <Path>C:\Users\*\AppData\LocalLow\Sun\Java\Deployment\cache\</Path>
+
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Windows\Recent\</Path>
+    </UsersAppdata>
     <TeamsCache>
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\Cache\</Path>
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\GPUCache\</Path>
+
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\Code Cache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\previous\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\Service Worker\CacheStorage\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\Service Worker\ScriptCache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\Service Worker\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\Cache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\Code Cache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\IndexedDB\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\logs\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\tmp\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Teams\old_GPUCache_000\</Path>
+
+        <Path>C:\Users\*\AppData\Local\Microsoft\Teams\previous\</Path>
     </TeamsCache>
-    <WindowsLogs>
-        <Path>C:\Windows\Logs\</Path>
-        <Path>C:\Windows\CCM\Logs\</Path>
-        <Path>C:\Windows\System32\LogFiles\</Path>
-        <Path>C:\Windows\System32\winevt\Logs\</Path>
-    </WindowsLogs>
-    <UsersAppdata>
-        <Path>C:\Users\*\AppData\Local\Temp\</Path>
-        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\Explorer\</Path>
-        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\WebCache\</Path>
-        <Path>C:\Users\*\AppData\Local\Microsoft\TokenBroker\Cache\</Path>
-        <Path>C:\Users\*\AppData\Local\Microsoft\Terminal Server Client\Cache\</Path>
-        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\Caches\</Path>
+    <O365Cache>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Office\Recent\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Microsoft\Excel</Path>
+
+        <Path>C:\Users\*\AppData\Local\Microsoft\Office\DiagnosticPane\EBWebView\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Office\SolutionPackages\</Path>
+
+        <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\Wef\webview2\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\AddInClassifierCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\BackstageInAppNavCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\MruServiceCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\OfficeFileCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\ResourceInfoCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\SitesServiceCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\SmartLookupCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\WebServiceCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\*cache*\</Path>
+    </O365Cache>
+    <OneDriveCache>
         <Path>C:\Users\*\AppData\Local\OneDrive\cache\</Path>
-        <Path>C:\Users\*\AppData\LocalLow\Sun\Java\Deployment\tmp\</Path>
-        <Path>C:\Users\*\AppData\Roaming\Microsoft\Windows\Recent\</Path>
-    </UsersAppdata>
-    <WindowsInstallers>
-        <Path>C:\WINDOWS\Installer\$PatchCache$\</Path>
-        <Path>C:\Users\*\AppData\Roaming\Microsoft\Installer\</Path>
-    </WindowsInstallers>
+        <Path>C:\Users\*\AppData\Local\OneDrive\EBWebView\</Path>
+        <Path>C:\Users\*\AppData\Local\OneDrive\logs\</Path>
+        <Path>C:\Users\*\AppData\Local\OneDrive\setup\</Path>
+        <Path>C:\Users\*\AppData\Local\OneDrive\Update\</Path>
+    </OneDriveCache>
     <WindowsReporting>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\WER\ReportQueue\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Windows\WER\ReportArchive\</Path>
         <Path>C:\ProgramData\Microsoft\Windows\WER\ReportQueue\</Path>
         <Path>C:\ProgramData\Microsoft\Windows\WER\ReportArchive\</Path>
     </WindowsReporting>
     <WindowsOffileFiles>
         <Path>C:\WINDOWS\CSC\</Path>
     </WindowsOffileFiles>
+    <WindowsImageFiles>
+        <Path>C:\$Windows.~WS\</Path>
+        <Path>C:\$Windows.~BT\</Path>
+        <Path>C:\$Windows.~LS\</Path>
+        <Path>C:\WINDOWS.old\</Path>
+        <Path>C:\WINDOWS\Panther\</Path>
+    </WindowsImageFiles>
+    <RecycleBin>
+        <Path>C:\$Recycle.Bin\</Path>
+    </RecycleBin>
+    <BackupComponents>
+        <Path>C:\WINDOWS\servicing\LCU\</Path>
+        <Path>C:\WINDOWS\winsxs\backup\</Path>
+    </BackupComponents>
+    <ManufactureUpdates>
+        <Path>C:\SWSetup\</Path>
+        <Path>C:\ProgramData\Dell\UpdateService\Downloads\</Path>
+        <Path>C:\ProgramData\Intel\DSA\Downloads\</Path>
+        <Path>C:\ProgramData\NVIDIA Corporation\Downloader\</Path>
+    </ManufactureUpdates>
+    <BrowserCache>
+        <!-- Chrome-->
+        <Path>C:\Users\*\Appdata\local\Google\Chrome\User Data\*\Service Worker\CacheStorage\</Path>
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\*\Cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\*\Code Cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\*\GPUCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\*\IndexedDB\</Path>
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\*\optimization_guide_hint_cache_store\</Path>
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\*\WebStorage\</Path>
+
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\component_crx_cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\extensions_crx_cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\old_ShaderCache_000\</Path>
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\GraphiteDawnCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\GrShaderCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\PnaclTranslationCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\ShaderCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Google\Chrome\User Data\Module Info Cache\</Path>
+
+        <!-- Edge-->
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\*\Service Worker\CacheStorage\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\*\Cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\*\Code Cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\*\GPUCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\*\IndexedDB\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\*\optimization_guide_hint_cache_store\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\*\WebStorage\</Path>
+
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\component_crx_cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\extensions_crx_cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\old_ShaderCache_000\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\GraphiteDawnCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\GrShaderCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\PnaclTranslationCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\ShaderCache\</Path>
+        <Path>C:\Users\*\AppData\Local\Microsoft\Edge\User Data\Module Info Cache\</Path>
+
+        <!-- Braver-->
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\Service Worker\CacheStorage\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\Cache\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\User Data\Default\Service Worker\CacheStorage\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\User Data\Default\Cache\</Path>
+
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Service Worker\CacheStorage\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Cache\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\Code Cache\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\GPUCache\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\IndexedDB\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\optimization_guide_hint_cache_store\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\*\WebStorage\</Path>
+
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\component_crx_cache\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\extensions_crx_cache\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\old_ShaderCache_000\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\GraphiteDawnCache\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\GrShaderCache\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\PnaclTranslationCache\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\ShaderCache\</Path>
+        <Path>C:\Users\*\AppData\Local\BraveSoftware\Brave-Browser\User Data\Module Info Cache\</Path>
+
+        <!-- Opera-->
+        <Path>C:\Users\*\Appdata\local\Opera Software\Opera Stable\User Data\Default\Service Worker\CacheStorage\</Path>
+        <Path>C:\Users\*\AppData\Local\Opera Software\Opera Stable\Cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Opera\Opera\cache\</Path>
+
+        <Path>C:\Users\*\AppData\Roaming\Opera\Opera\cache\</Path>
+        
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\*\Service Worker\CacheStorage\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\*\Cache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\*\Code Cache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\*\GPUCache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\*\IndexedDB\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\*\optimization_guide_hint_cache_store\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\*\WebStorage\</Path>
+
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\component_crx_cache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\extensions_crx_cache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\old_ShaderCache_000\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\GraphiteDawnCache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\GrShaderCache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\PnaclTranslationCache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\ShaderCache\</Path>
+        <Path>C:\Users\*\AppData\Roaming\Opera Software\Opera Stable\User Data\Module Info Cache\</Path>
+
+        <!-- FireFox-->
+        <Path>C:\Users\*\AppData\Local\Mozilla\Firefox\Profiles\*\cache\</Path>
+        <Path>C:\Users\*\AppData\Local\Mozilla\Firefox\Profiles\*\cache2\</Path>
+
+        <Path>C:\Users\*\AppData\local\Mozilla\Firefox\Profiles\*\storage\default\</Path>
+        <Path>C:\Users\*\AppData\local\Mozilla\Firefox\Profiles\*\jumpListCache\</Path>
+        <Path>C:\Users\*\AppData\local\Mozilla\Firefox\Profiles\*\minidumps\</Path>
+        <Path>C:\Users\*\AppData\local\Mozilla\Firefox\Profiles\*\OfflineCache\</Path>
+        <Path>C:\Users\*\AppData\local\Mozilla\Firefox\Profiles\*\startupCache\</Path>
+        <Path>C:\Users\*\AppData\local\Mozilla\Firefox\Profiles\*\thumbnails\</Path>
+
+        <Path>C:\Users\*\AppData\Roaming\Mozilla\Firefox\Profiles\*\caches\</Path>
+    </BrowserCache>
     <RootDriveCache>
         <Path>C:\OneDriveTemp\</Path>
         <Path>C:\MSOCache\</Path>
@@ -91,18 +246,8 @@
         <Path>C:\ClientHealth\</Path>
     </RootDriveCache>
     <CustomPaths>
-        <Path>C:\AdaptivaCache\</Path>
         <Path>C:\Autodesk\</Path>
+        <Path>C:\AdaptivaCache\</Path>
         <Path>C:\Temp\Powershell\</Path>
     </CustomPaths>
-    <WindowsImageFiles>
-        <Path>C:\$Windows.~WS\</Path>
-        <Path>C:\$Windows.~BT\</Path>
-        <Path>C:\$Windows.~LS\</Path>
-        <Path>C:\Windows.old\</Path>
-        <Path>C:\Windows\Panther\</Path>
-    </WindowsImageFiles>
-    <RecycleBin>
-        <Path>C:\$Recycle.Bin\</Path>
-    </RecycleBin>
 </Paths>
