@@ -131,10 +131,12 @@
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Office\Recent\</Path>
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Excel</Path>
 
-        <Path>C:\Users\*\AppData\Local\Microsoft\Office\DiagnosticPane\EBWebView\</Path>
+        <!--<Path>C:\Users\*\AppData\Local\Microsoft\Office\DiagnosticPane\EBWebView\</Path>-->
+        
         <Path>C:\Users\*\AppData\Local\Microsoft\Office\SolutionPackages\</Path>
 
-        <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\Wef\webview2\</Path>
+        <!--<Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\Wef\webview2\</Path>-->
+        
         <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\AddInClassifierCache\</Path>
         <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\BackstageInAppNavCache\</Path>
         <Path>C:\Users\*\AppData\Local\Microsoft\Office\16.0\MruServiceCache\</Path>
@@ -148,10 +150,11 @@
     <OneDriveCache>
         <!--One Drive cache-->
         <Path>C:\Users\*\AppData\Local\OneDrive\cache\</Path>
-        <Path>C:\Users\*\AppData\Local\OneDrive\EBWebView\</Path>
         <Path>C:\Users\*\AppData\Local\OneDrive\logs\</Path>
         <Path>C:\Users\*\AppData\Local\OneDrive\setup\</Path>
         <Path>C:\Users\*\AppData\Local\OneDrive\Update\</Path>
+        
+        <!--<Path>C:\Users\*\AppData\Local\OneDrive\EBWebView\</Path>-->
     </OneDriveCache>
     <WindowsReporting>
         <!--Windows Reporting Files-->
