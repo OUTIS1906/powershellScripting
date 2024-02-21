@@ -44,9 +44,7 @@
         <Path>C:\WINDOWS\Logs\WindowsUpdate\</Path>
         <Path>C:\WINDOWS\Logs\SystemRestore\</Path>
         <Path>C:\WINDOWS\Logs\SetupCleanupTask\</Path>
-        <Path>C:\WINDOWS\Logs\QualysAgent\</Path>
         <Path>C:\WINDOWS\Logs\MoSetup\</Path>
-        <Path>C:\WINDOWS\Logs\QualysAgent\</Path>
         <Path>C:\WINDOWS\Logs\QualysAgent\</Path>
         <!--<Path>C:\WINDOWS\Logs\</Path>-->
         <!--<Path>C:\WINDOWS\CCM\Logs\</Path>-->
@@ -56,6 +54,7 @@
     <WindowsInstallers>
         <!--Windows installers cache-->
         <!--C:\WINDOWS\Installer-->
+
         <Path>C:\WINDOWS\Installer\*tmp*\</Path>
         <Path>C:\WINDOWS\Installer\$PatchCache$\</Path>
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Installer\</Path>
@@ -129,8 +128,8 @@
     <O365Cache>
         <!--Office cache-->
         <Path>C:\Users\*\AppData\Roaming\Microsoft\Office\Recent\</Path>
-        <Path>C:\Users\*\AppData\Roaming\Microsoft\Excel</Path>
 
+        <!--<Path>C:\Users\*\AppData\Roaming\Microsoft\Excel</Path>-->
         <!--<Path>C:\Users\*\AppData\Local\Microsoft\Office\DiagnosticPane\EBWebView\</Path>-->
         
         <Path>C:\Users\*\AppData\Local\Microsoft\Office\SolutionPackages\</Path>
