@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<Apps>
+  <App>
+    <Name>App Installer</Name>
+    <Url>https://apps.microsoft.com/detail/9NBLGGH4NNS1</Url>
+  </App>
+  <App>
+    <Name>Company Portal</Name>
+    <Url>https://apps.microsoft.com/detail/9WZDNCRFJ3PZ</Url>
+  </App>
+  <App>
+    <Name>Heif Image Extensios</Name>
+    <Url>https://apps.microsoft.com/detail/9PMMSR1CGPWG</Url>
+  </App>
+  <App>
+    <Name>Hevc Video Extensions</Name>
+    <Url>https://apps.microsoft.com/detail/9N4WGH0Z6VHQ</Url>
+  </App>
+  <App>
+    <Name>Intel Control Panel</Name>
+    <Url>https://apps.microsoft.com/detail/9PLFNLNT3G5G</Url>
+  </App>
+  <App>
+    <Name>Microsoft Remote Desktop</Name>
+    <Url>https://apps.microsoft.com/detail/9WZDNCRFJ3PS</Url>
+  </App>
+  <App>
+    <Name>Microsoft Store</Name>
+    <Url>https://apps.microsoft.com/detail/9wzdncrfjbmp</Url>
+  </App>
+  <App>
+    <Name>Microsoft Whiteboard</Name>
+    <Url>https://apps.microsoft.com/detail/9MSPC6MP8FM4</Url>
+  </App>
+  <App>
+    <Name>Microsoft Wireless Display Adapter</Name>
+    <Url>https://apps.microsoft.com/detail/9WZDNCRFJBB1</Url>
+  </App>
+  <App>
+    <Name>Nvidia Control Panel</Name>
+    <Url>https://apps.microsoft.com/detail/9NF8H0H7WMLT</Url>
+  </App>
+  <App>
+    <Name>OneNote</Name>
+    <Url>https://apps.microsoft.com/detail/XPFFZHVGQWWLHB</Url>
+  </App>
+  <App>
+    <Name>Outlook for Windows</Name>
+    <Url>https://apps.microsoft.com/detail/9NRX63209R7B</Url>
+  </App>
+  <App>
+    <Name>Power Automate</Name>
+    <Url>https://apps.microsoft.com/detail/9NFTCH6J7FHV</Url>
+  </App>
+  <App>
+    <Name>Quick Assist</Name>
+    <Url>https://apps.microsoft.com/detail/9P7BP5VNWKX5</Url>
+  </App>
+  <App>
+    <Name>Raw Image Extension</Name>
+    <Url>https://apps.microsoft.com/detail/9NCTDW2W1BH8</Url>
+  </App>
+  <App>
+    <Name>Snipping Tool</Name>
+    <Url>https://apps.microsoft.com/detail/9MZ95KL8MR0L</Url>
+  </App>
+  <App>
+    <Name>Sticky Notes</Name>
+    <Url>https://apps.microsoft.com/detail/9NBLGGH4QGHW</Url>
+  </App>
+  <App>
+    <Name>To Do</Name>
+    <Url>https://apps.microsoft.com/detail/9NBLGGH5R558</Url>
+  </App>
+  <App>
+    <Name>Waves MaxxAudio Pro for Dell</Name>
+    <Url>https://apps.microsoft.com/detail/9NB9SRTL2KPT</Url>
+  </App>
+  <App>
+    <Name>Windows Notepad</Name>
+    <Url>https://apps.microsoft.com/detail/9MSMLRH6LZF3</Url>
+  </App>
+  <App>
+    <Name>Windows Terminal</Name>
+    <Url>https://apps.microsoft.com/detail/9N0DX20HK701</Url>
+  </App>
+  <App>
+    <Name>Azure Remote Desktop Preview</Name>
+    <Url>https://apps.microsoft.com/detail/9nzsg2h7ms6b</Url>
+  </App>
+</Apps>
