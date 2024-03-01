@@ -5,6 +5,10 @@
     <Url>https://apps.microsoft.com/detail/9NBLGGH4NNS1</Url>
   </App>
   <App>
+    <Name>Azure Remote Desktop Preview</Name>
+    <Url>https://apps.microsoft.com/detail/9nzsg2h7ms6b</Url>
+  </App>
+  <App>
     <Name>Company Portal</Name>
     <Url>https://apps.microsoft.com/detail/9WZDNCRFJ3PZ</Url>
   </App>
@@ -83,9 +87,5 @@
   <App>
     <Name>Windows Terminal</Name>
     <Url>https://apps.microsoft.com/detail/9N0DX20HK701</Url>
-  </App>
-  <App>
-    <Name>Azure Remote Desktop Preview</Name>
-    <Url>https://apps.microsoft.com/detail/9nzsg2h7ms6b</Url>
   </App>
 </Apps>
