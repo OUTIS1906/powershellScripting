@@ -60,7 +60,7 @@ Function Uninstall-Applications {
             $ApplicationsFound = $ApplicationsFound | Out-GridView -OutputMode Multiple -Title "Select applications:"
         }
         else{
-            $ApplicationsFound |Format-List  -GroupBy Publisher | Sort-Object -Property DisplayName 
+            $ApplicationsFound | Format-List  -GroupBy Publisher
             #$ApplicationsFound | Format-Table -GroupBy Publisher
         }
 
