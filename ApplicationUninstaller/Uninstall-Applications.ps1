@@ -40,6 +40,9 @@ Function Uninstall-Applications {
     if (([System.Security.Principal.WindowsIdentity]::GetCurrent().Groups -match 'S-1-5-32-544')) {
         $UninstallKeys += "registry::HKEY_USERS\S*\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\"
     }
+    else{
+        $UninstallKeys += "registry::HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\"
+    }
     
     $UninstallKeys = $UninstallKeys | Get-ChildItem -Force -Recurse
     
@@ -168,4 +171,4 @@ Function Uninstall-Applications {
             $delimater
         }
     }
-}Uninstall-Applications
+} Uninstall-Applications
