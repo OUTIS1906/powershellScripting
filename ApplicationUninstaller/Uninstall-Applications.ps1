@@ -81,7 +81,7 @@ Function Uninstall-Applications {
             }
 
             
-            $decision = $Host.UI.PromptForChoice("[$counter]Shall we?:", $application.DisplayName, $Choices, 0)
+            $decision = $Host.UI.PromptForChoice("[$counter] Shall we?:", $application.DisplayName, $Choices, 0)
             $counter++
 
             switch ($decision){
