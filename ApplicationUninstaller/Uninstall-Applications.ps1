@@ -47,7 +47,7 @@ Function Uninstall-Applications {
     $UninstallKeys = $UninstallKeys | Get-ChildItem -Force -Recurse
     
     
-    $ApplicationsFound = $UninstallKeys | Get-ItemProperty | Where-Object { $_.DisplayName -like "$ApplicationName" } | Select-Object -Property DisplayName, Publisher, DisplayVersion, UninstallString, InstallDate
+    $ApplicationsFound = $UninstallKeys | Get-ItemProperty | Where-Object { $_.DisplayName -like $ApplicationName -AND $null -ne $_.DisplayName }  | Select-Object -Property DisplayName, Publisher, DisplayVersion, UninstallString, InstallDate
 
     if ($null -eq $ApplicationsFound) {
         #Write-Warning "None application matching criteria: $ApplicationName" 
