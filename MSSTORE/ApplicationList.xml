@@ -52,6 +52,10 @@
     <Name>Outlook for Windows</Name>
     <Url>https://apps.microsoft.com/detail/9NRX63209R7B</Url>
   </App>
+    <App>
+    <Name>Paint</Name>
+    <Url>https://apps.microsoft.com/detail/9pcfs5b6t72h</Url>
+  </App>
   <App>
     <Name>Power Automate</Name>
     <Url>https://apps.microsoft.com/detail/9NFTCH6J7FHV</Url>
