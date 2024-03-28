@@ -22,13 +22,11 @@ function Generate-Password {
     )
 
     $charSet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+    if($PSBoundParameters.ContainsKey('IncludeNonAlphanumeric')) { $charSet += '!@#$%^&*()-=_+' }
     
-    if ($IncludeNonAlphanumeric) {
-        $charSet += '!@#$%^&*()-=_+'
-    }
 
     $bytes = New-Object byte[] $passwordLength
-    $rng = [System.Security.Cryptography.RNGCryptoServiceProvider]::new()
+    $rng   = [System.Security.Cryptography.RNGCryptoServiceProvider]::new()
     $rng.GetBytes($bytes)
 
     $result = for ($i = 0; $i -lt $passwordLength; $i++) {
