@@ -10,14 +10,13 @@ function Test-ADCredential {
         switch ($domian.ValidateCredentials($Credentials.Username, $Credentials.GetNetworkCredential().Password)) {
             $true   { Write-Host "$($Credentials.Username) - Credentials are valid." -ForegroundColor Green    }
             $false  { Write-Host "$($Credentials.Username) - Credentials are not valid." -ForegroundColor Red  }
-            default { Write-Host "An issue occured." -ForegroundColor Yellow        }
+            default { Write-Warning "An issue occured." -ForegroundColor Yellow                                }
         }
     }
     catch { 
         Write-Warning "Domain is unavaialble."
     }
-    
-}Test-ADCredential
+}
 
 # Example usage:
 # Test-ADCredential -Credentials (Get-Credential)
