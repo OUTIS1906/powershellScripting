@@ -9,7 +9,7 @@ function Generate-Password {
         return [System.Web.Security.Membership]::GeneratePassword($passwordLength, $amountOfNonAlphanumeric)
     }
     else { Write-Warning "Powershell Core is not supported" }
-}Generate-Password
+}
 
 # Example usage:
 # Generate-Password -passwordLength 12 -amountOfNonAlphanumeric 12
@@ -34,7 +34,7 @@ function Generate-Password {
     }
 
     return  -join  $result
-}Generate-Password
+}
 
 # Example usage:
 # Generate-Password -passwordLength 12 -IncludeNonAlphanumeric
@@ -54,7 +54,7 @@ function Generate-Password {
     }
 
     return $Password
-}Generate-Password
+}
 
 # Example usage:
 # Generate-Password -passwordLength 12
