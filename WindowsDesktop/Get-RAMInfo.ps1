@@ -106,6 +106,7 @@ Function Get-RAMInfo {
         }
         catch {
             Write-Warning "Failed to retrieve information from $computer"
+            # "Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0].Exception.Message)"
         }  
     }
 }
