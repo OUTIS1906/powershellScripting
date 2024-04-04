@@ -24,5 +24,5 @@ Function Get-WifiProperties {
     return $psObject
 }
 
-## Example usage:
+# Example usage:
 # Get-WifiProperties
