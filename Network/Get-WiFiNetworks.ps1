@@ -1,6 +1,6 @@
 Function Get-WiFiNetworks {
 
-    [System.Threading.Thread]::CurrentThread.CurrentCulture = 'en-US'
+    [System.Threading.Thread]::CurrentThread.CurrentCulture   = 'en-US'
     [System.Threading.Thread]::CurrentThread.CurrentUICulture = 'en-US'
 
     $showInterface = & netsh wlan show net mode=bssid | Out-String
@@ -16,8 +16,6 @@ Function Get-WiFiNetworks {
         if($wlan.Success){
 
             $psObject = [PSCustomObject]@{}
-
-            
             $psObject | Add-Member -MemberType NoteProperty -Name "ID" -Value (++$index)-Force
 
             foreach($item in ($wlan.Value -split "`r?`n").Trim()) {
