@@ -2,9 +2,9 @@ Function Extract-ProtectedArchive {
     [CmdletBinding()]
     param(
         [Parameter(
-            Mandatory          = $true,
-            HelpMessage       = "Specifies the path to the protected archive file.",
-            ValueFromPipeline = $True
+            Mandatory         = $true,
+            ValueFromPipeline = $true,
+            HelpMessage       = "Specifies the path to the protected archive file."
             
         )]
         [ValidateScript({
@@ -30,9 +30,7 @@ Function Extract-ProtectedArchive {
             HelpMessage = "Specifies the mode for the copy operation. Choose from 'Overwrite', 'NoProgressDialog', 'YesToAll', 'PreserveUndo'"
         )]
         [ValidateSet("Overwrite", "NoProgressDialog", "YesToAll", "PreserveUndo","Default")]
-        [string]$Mode = "Default"
-
-        
+        [string]$Mode = "Default"  
     )
 
     $modeHash = @{
