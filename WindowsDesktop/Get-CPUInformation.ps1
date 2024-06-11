@@ -7,12 +7,17 @@ Function Get-CPUInformation {
 
     if($PSEdition -ne 'Desktop') { Write-Warning "Powershell Code doesn't support WMI-Object class."; return;; }
 
+    Write-Progress -Activity "Gathering information" -PercentComplete -1
+
     foreach($Computer in $ComputerName) {
 
         try{
             $cpuInfo    = Get-WmiObject -Class Win32_Processor -ErrorAction Stop -ComputerName $computer 
             $osInfo     = Get-WmiObject -Class Win32_OperatingSystem -ErrorAction Stop -ComputerName $computer
             $termalInfo = Get-WmiObject -Query "SELECT * FROM Win32_PerfFormattedData_Counters_ThermalZoneInformation" -Namespace "root/CIMV2" -ErrorAction  Stop -ComputerName $computer 
+
+            $usageCpu   = (Get-Counter -ComputerName $ComputerName -Counter "\Processor(_Total)\% Processor Time" -SampleInterval 2 -MaxSamples 5).CounterSamples |
+                            Measure-Object -Property CookedValue -Average
 
             $temp = foreach($item in $termalInfo.HighPrecisionTemperature) { 
                 [math]::Round($item / 100.0, 1)
@@ -32,10 +37,13 @@ Function Get-CPUInformation {
                     12 = "ARM64"
                 }[[int]$cpuInfo.Architecture]
                 Speed               = $cpuInfo.MaxClockSpeed
+                Usage               = [math]::Round($usageCpu.Average,2)
                 Socket              = $cpuInfo.SocketDesignation
                 WindowsArchitecture = $osInfo.OSArchitecture
                 Temperature         = $temp -join ' | '
             }
+
+            Write-Progress -Activity "Gathering information" -Completed
 
         }
         catch {
