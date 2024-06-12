@@ -1,6 +1,6 @@
 Function Test-NetworkOklaa {
     
-    Write-Host "Gathering information..." -NoNewline
+    Write-Progress -Activity "Gathering information" -PercentComplete -1
 
     $downloadUrl     = "https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-win64.zip"
     $destiantionZip  = [io.path]::Combine($env:TEMP,'ookla-speedtest-1.2.0-win64.zip')
@@ -42,7 +42,8 @@ Function Test-NetworkOklaa {
         if ($process.ExitCode -eq 0) {
             $Result = $stdOutput | ConvertFrom-Json -ErrorAction SilentlyContinue
 
-            Write-Host "Done." -NoNewline
+            Write-Progress -Activity "Gathering information" -Completed
+            
             return ([PSCustomObject]@{
                 DownloadSpeed = [math]::Round($Result.download.bandwidth / 1000000 * 8, 2)
                 UploadSpeed   = [math]::Round($Result.upload.bandwidth / 1000000 * 8, 2)
