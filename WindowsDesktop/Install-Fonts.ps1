@@ -39,6 +39,9 @@ function Install-Fonts {
             Write-Host "⛔ Already installed: $fileName" -ForegroundColor Yellow
         }
     }
+    end {
+        [System.Runtime.InteropServices.Marshal]::ReleaseComObject($fonts) > $null
+    }
 }
 
 # ✅ -> "$([char]0x2705)"
