@@ -1,4 +1,8 @@
 Function Get-WhoAmI {
+    [CmdletBinding()]
+    [Alias('who')]
+    [OutputType('PSCustomObject')]
+    Param()
 
     $CIM = Get-CimInstance Win32_OperatingSystem -Property Caption, Version, OSArchitecture
     $OS = "$($CIM.Caption) [$($CIM.OSArchitecture)]"
