@@ -11,19 +11,30 @@ Function Get-WhoAmI {
     $principal = [Security.Principal.WindowsPrincipal]$current
     $elevated  = $principal.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)
 
+    $SID = $current.User.Value
+    $userKey = (Get-ChildItem "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\*\$SID\Usernames\*")
+
+    $UPN,$Type =  if ($null -ne $userKey) {
+        $userKey.PSChildName, $userKey.GetSubKeyNames()
+    }
+
+
+
     [PSCustomObject]@{
-        User            = $current.Name
-        SID             = $current.User.Value
-        Elevated        = $elevated
-        Computername    = $env:COMPUTERNAME
-        OperatingSystem = $OS
-        OSVersion       = $CIM.Version
-        PSVersion       = $PSVersionTable.PSVersion.ToString()
-        Edition         = $PSVersionTable.PSEdition
-        PSHost          = $host.Name
-        WSMan           = $PSVersionTable.WSManStackVersion.ToString()
-        ExecutionPolicy = (Get-ExecutionPolicy)
-        Culture         = [System.Globalization.CultureInfo]::CurrentCulture.NativeName
+        UserName          = $current.Name
+        UserPrincipalName = $UPN
+        SID               = $current.User.Value   
+        AccountType       = $Type
+        Elevated          = $elevated
+        ComputerName      = $env:COMPUTERNAME
+        OperatingSystem   = $OS
+        OSVersion         = $CIM.Version
+        PSVersion         = $PSVersionTable.PSVersion.ToString()
+        Edition           = $PSVersionTable.PSEdition
+        PSHost            = $host.Name
+        WSMan             = $PSVersionTable.WSManStackVersion.ToString()
+        ExecutionPolicy   = (Get-ExecutionPolicy)
+        Culture           = [System.Globalization.CultureInfo]::CurrentCulture.NativeName
     }
 }
 
