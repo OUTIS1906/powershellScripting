@@ -23,7 +23,7 @@ Function Get-WhoAmI {
     [PSCustomObject]@{
         UserName          = $current.Name
         UserPrincipalName = $UPN
-        SID               = $current.User.Value   
+        SID               = $SID  
         AccountType       = $Type
         Elevated          = $elevated
         ComputerName      = $env:COMPUTERNAME
